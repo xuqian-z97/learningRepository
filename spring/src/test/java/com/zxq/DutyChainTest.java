@@ -3,7 +3,6 @@ package com.zxq;
 import com.zxq.dutychain.factory.DutyChainHandlerFactory;
 import com.zxq.dutychain.model.PhoneNumberDTO;
 import com.zxq.dutychain.model.SensitiveWordDTO;
-import javafx.application.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
