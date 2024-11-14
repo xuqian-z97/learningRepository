@@ -1,0 +1,22 @@
+server:
+  port: 7080
+  servlet:
+    context-path: /spring
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types: application/json
+
+
+mybatis:
+  #  扫描数据持久对应的实体类 路径 Package级别
+  #    type-aliases-package:
+  #  mybatis 对应的 .xml文件路径
+  #   mapper-locations: classpath*:com/urthink/upfs/**/*Mapper.xml
+  mapper-locations: classpath:mapper/**.xml
+  config-location: classpath:mybatis-config.xml
+
+#logging:
+#  level:
+#    com.hcss: debug
+#    org.springframework: warn
